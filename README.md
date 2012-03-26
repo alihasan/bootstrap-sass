@@ -1,7 +1,9 @@
-# Bootstrap for SASS
+# Contained Bootstrap for SASS
 
 `bootstrap-sass` is an SASS-powered version of [Twitter's Bootstrap](http://github.com/twitter/bootstrap), ready to drop right into your SASS powered applications.
 
+ This version of `bootstrap-sass` wraps everything in a `bootstrap-container` class so that you can integrate it into your existing application.
+ 
 Enjoy.
 
 ## Updating
