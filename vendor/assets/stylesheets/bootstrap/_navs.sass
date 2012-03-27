@@ -7,15 +7,17 @@
   .nav
     margin-left: 0
     margin-bottom: $baseLineHeight
-    list-style: none
+    list-style: none !important
 
   // Make links block level
   .nav > li > a
     display: block
+    text-decoration: none !important
 
   .nav > li > a:hover
     text-decoration: none
     background-color: $grayLighter
+    text-decoration: none !important
 
   // Nav headers (for dropdowns and lists)
   .nav .nav-header
@@ -100,6 +102,7 @@
     border: 1px solid #ddd
     border-bottom-color: transparent
     cursor: default
+    text-decoration: none
 
   // PILLS
   // -----
